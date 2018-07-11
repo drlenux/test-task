@@ -1,0 +1,9 @@
+{
+    "name": "noname/redis",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {"app\\": "/"}
+    }
+}

@@ -1,0 +1,5 @@
+redis/vendor/*
+redis/composer.lock
+redis/.idea
+array_unique/.idea
+.idea
