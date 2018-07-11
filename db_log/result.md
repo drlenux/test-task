@@ -1,10 +1,11 @@
 Допустим имеем таблицу `logs`
 
 ###logs
-id | log | created_at | status_code
---- | --- | --- | ---
-int|text|int/timestamp|int
-PK | |index|index
+
+| id | log | created_at  | status_code|
+|--- | --- | ----------- | ---------- |
+|int | text|int/timestamp|     int    |
+|PK |      |     index   |   index    |
 
 1. делаем партицирование
     ```sql
